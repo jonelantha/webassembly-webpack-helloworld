@@ -1,0 +1,15 @@
+{
+  "name": "webassembly-webpack-helloworld",
+  "version": "1.0.0",
+  "description": "A webassembly hello world using webpack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonelantha/webassembly-webpack-helloworld.git"
+  },
+  "scripts": {
+  },
+  "author": "Jon Pollard",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}
