@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'calculator';
+    src: url('./fonts/calculator.woff') format('woff');
+}
+
 main {
     display: inline-flex;
+}
+
+#hello {
+    transform: rotate(180deg);
+    font-family: 'calculator';
+    font-size: 60px;
 }
