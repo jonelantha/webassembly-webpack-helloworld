@@ -17,6 +17,16 @@ module.exports = {
           'css-loader',
         ],
       },
+      {
+        test: /\.wat$/,
+        use: [
+          "arraybuffer-loader",
+          "wast-loader",
+        ],
+      },
     ],
+  },
+  node: {
+    Buffer: false,
   },
 };
