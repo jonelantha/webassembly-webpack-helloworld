@@ -3,6 +3,11 @@
     src: url('./fonts/calculator.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'caveat';
+    src: url('./fonts/caveat-v7-latin-regular.woff') format('woff');
+}
+
 main {
     display: inline-flex;
 }
@@ -11,4 +16,10 @@ main {
     transform: rotate(180deg);
     font-family: 'calculator';
     font-size: 60px;
+}
+
+#world {
+    font-family: 'caveat';
+    font-size: 60px;
+    margin-left: 10px;
 }
